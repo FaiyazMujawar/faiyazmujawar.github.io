@@ -1,0 +1,257 @@
+/* Fonts */
+
+@import url("https://fonts.googleapis.com/css2?family=Oswald:wght@300;400;500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap");
+
+body {
+  color: white;
+  text-align: center;
+  background-color: #1d1f33;
+  padding-bottom: 3rem;
+  font-size: 1.25rem;
+  font-family: "Oswald", sans-serif;
+  font-weight: 300;
+}
+
+hr {
+  border: none;
+  border-top: solid 2px;
+  border-color: #7577a3;
+  /* width: 10%; */
+  margin: 2rem auto;
+}
+
+section {
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+  vertical-align: middle;
+}
+
+section h3 {
+  display: inline-block;
+  padding: 5px;
+  margin-bottom: 2.5rem;
+  text-align: center;
+  color: #e84c56;
+  border: 2px solid #e84c56;
+  font-family: "Oswald", sans-serif;
+  font-size: 2.15rem;
+}
+
+.divider {
+  border: none;
+  border-top: dotted 8px #7577a3;
+  width: 3rem;
+}
+
+/* Navbar */
+
+header {
+  position: sticky;
+  top: 0%;
+  z-index: 99;
+  box-shadow: 0px 3px 10px rgba(0, 0, 0, 0.3);
+}
+
+header * {
+  background-color: #1d1f33;
+  opacity: 1;
+}
+
+header img {
+  height: 2rem;
+  width: auto;
+  border-radius: 100%;
+}
+
+.highlight {
+  color: #e84c56;
+}
+
+/* Home section */
+
+#home {
+  text-align: center;
+  font-family: "Oswald", sans-serif;
+}
+
+#home h1 {
+  text-align: center;
+  font-size: 4rem;
+}
+
+#home h5 {
+  color: #7577a3;
+  text-align: center;
+  font-size: 1.25rem;
+}
+
+#home hr {
+  width: 5rem;
+  margin: auto;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+
+.colored {
+  color: #e84c56;
+}
+
+.profile {
+  height: 15rem;
+  width: auto;
+  background-color: white;
+  border: solid 10px white;
+  border-radius: 100%;
+  margin: 1rem;
+}
+
+/* About Section */
+
+#about {
+  font-family: "Source Sans Pro", sans-serif;
+}
+
+#about .btn {
+  border-color: #e84c56;
+  color: #e84c56;
+}
+
+#about .btn:hover {
+  border-color: #e84c56;
+  background: #e84c56;
+  color: white;
+}
+
+#about p {
+  text-align: start;
+}
+
+/* Education Section */
+
+#education .col-md-2 h6 {
+  text-align: center;
+}
+
+.school {
+  text-align: start;
+}
+
+#education h5 {
+  font-size: 1.75rem;
+  font-family: "Oswald", sans-serif;
+  font-weight: 500;
+}
+
+#education h6 {
+  font-size: 1.15rem;
+}
+
+.board-name {
+  color: #7577a3;
+}
+
+/* Skills Section */
+
+.box {
+  border: 2px #7577a3 solid;
+  border-radius: 10px;
+  padding: 2rem;
+}
+
+.skill-name {
+  text-align: center;
+  color: #7577a3;
+  font-family: "Oswald", sans-serif;
+  font-weight: 400;
+}
+
+#skills img {
+  padding: 1rem;
+}
+
+#skills hr {
+  border-color: #7577a3;
+}
+
+/* Projects Section */
+
+.project {
+  text-align: start;
+  padding: 2rem;
+}
+
+
+.project img {
+  padding: 1.5rem;
+}
+
+.project-name {
+  font-family: "Oswald", sans-serif;
+  font-size: 1.75rem;
+  font-weight: 500;
+}
+
+.project-type {
+  color: #7577a3;
+}
+
+/* #social */
+
+#social {
+  text-align: center;
+  padding: 2rem;
+}
+
+#social h5 {
+  font-family: "Source Sans Pro", sans-serif;
+  color: #7577a3;
+}
+
+#social h4 {
+  margin-top: 1rem;
+}
+
+._social {
+  text-align: center;
+}
+
+._social i {
+  padding: 1rem;
+  border-radius: 100%;
+}
+
+._social a {
+  color: white;
+}
+
+._social i:hover {
+  background-color: #9ca1d61c;
+}
+
+/* For Smaller Screen Size */
+
+@media (max-width: 720px) {
+  section {
+    width: 90%;
+    margin: auto;
+  }
+
+  #education .col-md-2 h6 {
+    text-align: left;
+  }
+
+  #skills hr {
+    visibility: hidden;
+    height: 0;
+  }
+
+  .skill-name{
+    margin-top: 1rem;
+  }
+
+  ._social i {
+    padding: 0.5rem;
+  }
+
+}
