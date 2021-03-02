@@ -204,6 +204,12 @@ header img {
 
 /* Projects Section */
 
+.projects {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+  grid-column-gap: 15px;
+}
+
 .project {
   text-align: start;
   padding: 2rem;
